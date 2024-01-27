@@ -3,49 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Counter</title>
 
     <style>
-            
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-
-        .wrapper{
-            display: flex;
-            gap: 10px;
-            margin-top: 200px;
-            border: 3px solid rgb(32, 107, 160);
-            border-radius: 15px;
-            text-align: center;
-            justify-content: center;
-            padding: 0 60px;
-            margin-left: 200px;
-            margin-right: 200px;
-
-        }
-
-        .plus{
-            background-color: transparent;
-            border: none;
-            margin: 0 auto;
-            margin-top: 45px;
-            margin-bottom: 50px;
-            font-size: 50px;
-        }
-
         .minus{
             background-color: transparent;
             border: none;
             margin: 0 auto;
             font-size: 50px;
-           
-
         }
-
-
         .number{
             text-align: center;
             margin: 0 auto;
@@ -66,7 +33,7 @@
 </head>
 <body>
     
-  <div class="wrapper">
+  <div  class="wrapper">
     <button class="plus" onclick="increment()">+</button>
     <div class="number" id="counter">0</div>
     <button class="minus" onclick="decrement()">-</button>
