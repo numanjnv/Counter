@@ -32,3 +32,10 @@
     font-size: 50px;
 
 }
+
+.plus:hover{
+    color: rgba(67, 178, 178, 0.701);
+}
+.minus:hover{
+    color: rgba(67, 178, 178, 0.701);
+}
